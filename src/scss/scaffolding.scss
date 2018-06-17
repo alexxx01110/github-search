@@ -1,0 +1,52 @@
+html {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  cursor: default;
+  overflow-y: scroll;
+  background: $bg-light;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  line-height: 1;
+  font: inherit;
+  font-size: 100%;
+
+  cursor: default;
+
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+h3 {
+  padding: 0;
+  margin: 0;
+
+  color: $color-main-dark1;
+
+  font-family: "Arial", sans-serif;
+  font-size: 2.3125rem;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: -.04em;
+}
+p {
+  padding: 0;
+  margin: 0;
+
+  color: $color-main-light3;
+
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -.06em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+}

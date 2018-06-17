@@ -1,0 +1,27 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px $bg-transparent-gray solid;
+}
+.search-box__title {
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: $bg-grey;
+}
+.search-box__form {
+  width: 100%;
+  input {
+    width: 100%;
+    padding: 10px 0;
+    font: inherit;
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+  }
+
+}
